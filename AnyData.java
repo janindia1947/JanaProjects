@@ -15,7 +15,7 @@ public class AnyData {
 	
 	//Static method using Array Variable
 	public static String[] getStudentDetails() {
-		//Instantiate the array Variable
+		//Instantiate the array Class
 		String[] studentDetails = new String[]{"1,Modi","2,Trump","3,Biden"};
 		return studentDetails ;
 	}
