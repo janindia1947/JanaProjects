@@ -6,7 +6,9 @@ public class SchoolMain {
 
 		String address;
 		// TODO Auto-generated method stub
-		SchoolInherited objPhiSch = new SchoolInherited(null);
+		//SchoolInherited objPhiSch = new SchoolInherited("456 NewYork");
+		
+		SchoolInherited objPhiSch = new SchoolInherited ();
 		
 		//School Name
 		System.out.println(objPhiSch.studentSchoolName("Delhi Public School"));
@@ -33,8 +35,7 @@ public class SchoolMain {
 		System.out.println(objPhiSch.PhoneNumber(91, "9440141128"));
 		
 		//Address without passing values gets value from constructor
-		objPhiSch.Fulladdress(address);	
-		
+		System.out.println(objPhiSch.Fulladdress());
 		
 	}
 

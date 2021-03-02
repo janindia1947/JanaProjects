@@ -1,8 +1,14 @@
 package org.jana;
 
 public class SchoolInherited extends SchoolSuper {
+	
 	String address = "1234 Washington DC";
-	SchoolInherited(String address){
+	
+	public SchoolInherited() {
+		
+	}
+	
+	public SchoolInherited(String address){
 		this.address = address;
 	}
 	
@@ -26,7 +32,7 @@ public class SchoolInherited extends SchoolSuper {
 	}
 	
 	//Address - using Constructor variable
-	public String Fulladdress(String address) {
+	public String Fulladdress() {
 		System.out.println("\n Address : " );
 		return address;
 	}
